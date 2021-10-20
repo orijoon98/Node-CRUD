@@ -73,11 +73,12 @@ app.post("/list", function (req, res) {
 
 ### 결과
 
-![스크린샷 2021-10-20 오후 2.55.22.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12ccdaf4-5852-4c9a-9783-f5f4902fcc28/스크린샷_2021-10-20_오후_2.55.22.png)
+![스크린샷 2021-10-20 오후 2 55 22](https://user-images.githubusercontent.com/74812188/138037889-a946d6d6-2474-48e6-b4e3-0863f101104c.png)
+
 
 텍스트로 example list를 보냈다.
 
-![스크린샷 2021-10-20 오후 2.56.04.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad527e45-2dce-48de-bd7e-025d0eda291c/스크린샷_2021-10-20_오후_2.56.04.png)
+![스크린샷 2021-10-20 오후 2 56 04](https://user-images.githubusercontent.com/74812188/138037911-8460818b-51d3-4bf6-8bc2-e27e93986eb0.png)
 
 mongoDB에 잘 저장된 걸 확인했다.
 
@@ -100,7 +101,7 @@ app.get("/list", function (req, res) {
 
 ### 결과
 
-![스크린샷 2021-10-20 오후 2.58.53.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/94c84ea1-f80d-4869-b259-f6ab7feee29b/스크린샷_2021-10-20_오후_2.58.53.png)
+![스크린샷 2021-10-20 오후 2 58 53](https://user-images.githubusercontent.com/74812188/138037924-38803e10-2140-4783-9e86-e161164a90ca.png)
 
 ## UPDATE
 
@@ -130,11 +131,11 @@ app.put("/list", function (req, res) {
 
 ### 결과
 
-![스크린샷 2021-10-20 오후 2.59.35.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/deec2b12-d783-4c32-9821-e7b84b9ba239/스크린샷_2021-10-20_오후_2.59.35.png)
+![스크린샷 2021-10-20 오후 2 59 35](https://user-images.githubusercontent.com/74812188/138037939-6386ade5-f885-421d-b30e-75c0b3ed20e5.png)
 
 id가 1인 텍스트를 updated list로 바꿔달라는 요청이다.
 
-![스크린샷 2021-10-20 오후 3.00.12.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9aacefb7-19d6-428b-8894-1dcfe79e366b/스크린샷_2021-10-20_오후_3.00.12.png)
+![스크린샷 2021-10-20 오후 3 00 12](https://user-images.githubusercontent.com/74812188/138037959-4273249f-d8e6-4236-b27b-39a40c31c3f5.png)
 
 GET 요청으로 다시 결과를 확인해보면 정상적으로 수정이 된 걸 확인할 수 있다.
 
@@ -158,9 +159,9 @@ app.delete("/list", function (req, res) {
 
 ### 결과
 
-![스크린샷 2021-10-20 오후 3.03.40.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eaa39c72-c330-42d3-801f-0cc8b19067a9/스크린샷_2021-10-20_오후_3.03.40.png)
+![스크린샷 2021-10-20 오후 3 03 40](https://user-images.githubusercontent.com/74812188/138037970-7de32fe5-1b0c-4683-910c-b4746f17f2bb.png)
 
-![스크린샷 2021-10-20 오후 3.03.57.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0f85ca29-11e6-4377-80c5-f39ca7886a4b/스크린샷_2021-10-20_오후_3.03.57.png)
+![스크린샷 2021-10-20 오후 3 03 57](https://user-images.githubusercontent.com/74812188/138037977-749e39ba-49ac-4c28-a6be-caa458db3fbc.png)
 
 삭제 요청을 보내고 다시 GET 요청을 보내보면 id가 1이었던 리스트가 정상적으로 삭제 된 걸 확인 할 수 있다.
 
