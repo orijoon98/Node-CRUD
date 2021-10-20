@@ -2,7 +2,7 @@
 
 ## 목표
 
-- 백엔드에서 프론트와 함께 CRUD 기능 연습을 위해 HTTP GET, POST로 MongoDB에 있는 데이터 CRUD 해서 결과 전달해보기
+- 백엔드에서 프론트와 함께 CRUD 기능 연습을 위해 HTTP GET, POST, PUT, DELETE로 MongoDB에 있는 데이터 CRUD 해서 결과 전달해보기
 
 ## 서버 실행
 
